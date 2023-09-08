@@ -7,7 +7,7 @@ const CoinInfo = [
 ];
 
 function Show() {
-  const [quantity, setQuantity] = useState({ BTC: 0, DOGE: 0, Ripple: 0 });
+  const [quantity, setQuantity] = useState({ BTC: null, DOGE: null, Ripple: null });
   const [tableData, setTableData] = useState([]);
   const [totalValue, setTotalValue] = useState(0);
 
